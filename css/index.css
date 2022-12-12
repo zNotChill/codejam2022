@@ -18,11 +18,11 @@
 }
 @font-face {
 	font-family: "Coffee"; 
-	src: url("/fonts/LetsCoffee-Wy2K4.ttf")
+	src: url("../fonts/LetsCoffee-Wy2K4.ttf")
 }
 @font-face {
 	font-family: "Snowy"; 
-	src: url("/fonts/DelightSnowy-gxozp.ttf")
+	src: url("../fonts/DelightSnowy-gxozp.ttf")
 }
 
 /* Root Design */

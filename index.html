@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aquarium</title>
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+	<div class="load-cover"></div>
+	<div class="popup" name="codejam">
+		<div class="content">
+			<h1>Hi there!</h1>
+			
+			This website was made as part of a
+			<span class="info">
+				CodeJam
+			</span>
+			for
+			<span class="info">
+				<a href="https://discord.gg/eqwZEH2dSx">this</a>
+			</span>
+			server. 
+			<br>
+			This website took 10 days to create, starting on the
+			<span class="info">
+				3rd December
+			</span>
+			and ending on the
+			<span class="info">
+				13th December
+			</span>
+			.
+		</div>
+		<div class="right">
+			<div class="dismiss"></div>
+			<img src="./img/torch.svg" alt="">
+		</div>
+	</div>
+	<!-- <div class="navbar">
+		<div class="title">aquarium</div>
+		<div class="items">
+			<ul>
+				<li>projects</li>
+				<li>languages</li>
+			</ul>
+		</div>
+	</div> -->
+	<div class="abs">
+		<img src="./img/octopus.svg" alt="">
+		<img src="./img/whale.svg" alt="">
+	</div>
+	<div class="imgs" style="position: fixed;z-index:-1;">
+		<img src="./img/anchor.svg" alt="" style="position:absolute;right:-200px;width:400px;height:400px;top:-180px;opacity:0.5;">
+		<img src="./img/torch.svg" alt="" style="position:absolute;left:-200px;width:400px;height:400px;top:-180px;opacity:0.5;">
+		<img src="./img/anchor.svg" alt="" style="position:absolute;left:100px;width:200px;height:200px;top:-180px;opacity:1;">
+	</div>
+	<div class="main-content">
+		<div class="block">
+			<div class="text">
+				<h1 class="title">
+					<img src="./img/coral.svg" alt="">
+					welcome
+					<img src="./img/coral.svg" alt="" style="transform: scaleX(-1)">
+				</h1>
+				<h2>...to the aquarium!</h2>
+				<p>
+					this website shows all my recent projects and what i do!
+				</p>
+			</div>
+			<div class="button-row">
+				<a href="#projects" class="button down-arrow">
+					<img src="./img/downarrow.svg" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="projects" id="projects">
+		<h1>projects</h1>
+		<div class="cont-list project-list"></div>
+	</div>
+	<div class="languages" id="languages"> <!-- this was originally for coding languages, but i made it things i use so there you go-->
+		<h1>things I use</h1>
+		<div class="cont-list language-list"></div>
+	</div>
+</body>
+	<script src="./js/index.js"></script>
+</html>

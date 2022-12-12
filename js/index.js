@@ -117,7 +117,7 @@ aquarium.projects = [
 				"color": "green"
 			},
 			{
-				"name": "customizable",
+				"name": "design",
 				"color": "red"
 			},
 			{
@@ -177,11 +177,9 @@ aquarium.showProjects = () => {
 					break
 			}
 			tags += `
-				<li>
-					<div class="tag tag-${tag}">
-						${val.name}
-					</div>
-				</li>
+				<div class="tag tag-${tag}">
+					${val.name}
+				</div>
 			`
 		})
 		proj.innerHTML += `
@@ -200,9 +198,9 @@ aquarium.showProjects = () => {
 					</div>
 					<div class="tags">
 						<h3>Categories</h3>
-						<ul>
+						<div class="tags-grid">
 							${tags}
-						</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -343,7 +341,7 @@ aquarium.loadUses = () => {
 		`
 			<div class="container">
 				<div class="thumbnail">
-					<i class="devicon-${v.icon}-${v.type}" style="font-size:8rem"></i>
+					<i class="devicon-${v.icon}-${v.type}"></i>
 				</div>
 				<div class="details">
 					<div class="name">

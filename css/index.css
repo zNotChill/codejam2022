@@ -21,7 +21,7 @@
 
 :root {
 
-	--deg: 200;
+	--deg: 210;
 
 	--bg: hsl(var(--deg), 90%, 40%);
 	--bgalt: hsl(var(--deg), 90%, 35%);
@@ -191,6 +191,7 @@ a[external="true"]::after {
 	align-items: center;
 	height: 100vh;
 	animation: floatIn 1s ease-in-out;
+	position: relative;
 }
 @keyframes floatIn {
 	from {
